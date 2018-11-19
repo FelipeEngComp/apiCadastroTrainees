@@ -24,7 +24,7 @@ public class JPAConfiguration {
 		factoryBean.setJpaVendorAdapter(venvendorAdapter);
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setUsername("kelwin");
+		dataSource.setUsername("root");
 		dataSource.setPassword("");
 		dataSource.setUrl("jdbc:mysql://localhost/apicadastro");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
